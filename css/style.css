@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fbf8ec;
+}
+
+.container {
+  max-width: 1208px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 181px 0;
+}
+
+h1 {
+  color: var(--main-on-surface, #414141);
+  font-family: Rubik;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 376px;
+  margin-bottom: 10px;
+  background: white;
+  border-radius: 4px;
+  width: 100%;
+}
+
+img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+}
+
+.card_text {
+  padding: 10px;
+  min-height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+
+time {
+  color: var(--grayscale-hard, #8f8f8f);
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.card_title {
+  color: var(--main-on-surface, #414141);
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.card_descr {
+  color: var(--main-on-surface, #414141);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  flex-grow: 1;
+}
+
+button {
+  display: block;
+  width: 150px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  border-width: 0;
+  background: var(--main-secondary-muted, #e5ffde);
+  color: #70c05b;
+
+  cursor: pointer;
+
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.button-green {
+  background: var(--main-secondary, #70c05b);
+  color: white;
+}
+
+.card-shadow {
+  border-radius: 4px;
+  background: var(--main-surface, #fff);
+  box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+}
